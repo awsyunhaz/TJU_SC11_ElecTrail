@@ -1,0 +1,228 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM        06/Jul/2016  19:37:39
+# Copyright 1999-2014 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\app\car_generalfunc.c
+#    Command line =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\app\car_generalfunc.c
+#        -D LPLD_K60 -lCN
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\List\
+#        -lB
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\List\
+#        -o
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\Obj\
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\IAR Systems\Embedded
+#        Workbench 7.0\arm\INC\c\DLib_Config_Full.h" -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\app\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\CPU\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\common\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\LPLD\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\FatFs\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\common\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\driver\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\class\
+#        -Ol -I "D:\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include\" -D
+#        ARM_MATH_CM4
+#    List file    =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\List\car_generalfunc.lst
+#    Object file  =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\Obj\car_generalfunc.o
+#
+###############################################################################
+
+C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\app\car_generalfunc.c
+      1          #include "car_generalfunc.h"
+      2          
+      3          #if 1 //通用特殊函数★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+      4          
+      5          /*
+      6          *  绝对值函数
+      7          */
+
+   \                                 In section .text, align 2, keep-with-next
+      8          int abs(int _X)    /* OVERLOADS */
+      9          {       /* return absolute value */
+     10            if(_X>=0)return _X;
+   \                     abs: (+1)
+   \   00000000   0x2800             CMP      R0,#+0
+   \   00000002   0xD500             BPL.N    ??abs_0
+     11            else return -_X;
+   \                     ??abs_1: (+1)
+   \   00000004   0x4240             RSBS     R0,R0,#+0
+   \                     ??abs_0: (+1)
+   \   00000006   0x4770             BX       LR               ;; return
+     12          }
+     13          
+     14          /*
+     15          *  符号函数
+     16          */
+
+   \                                 In section .text, align 2, keep-with-next
+     17          int sgn(int _X)    /* OVERLOADS */
+     18          {       /* return absolute value */
+     19            if(_X>0)return 1;
+   \                     sgn: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xDB01             BLT.N    ??sgn_0
+   \   00000004   0x2001             MOVS     R0,#+1
+   \   00000006   0xE005             B.N      ??sgn_1
+     20            else if(_X<0) return -1;
+   \                     ??sgn_0: (+1)
+   \   00000008   0x2800             CMP      R0,#+0
+   \   0000000A   0xD502             BPL.N    ??sgn_2
+   \   0000000C   0xF05F 0x30FF      MOVS     R0,#-1
+   \   00000010   0xE000             B.N      ??sgn_1
+     21            else return 0;
+   \                     ??sgn_2: (+1)
+   \   00000012   0x2000             MOVS     R0,#+0
+   \                     ??sgn_1: (+1)
+   \   00000014   0x4770             BX       LR               ;; return
+     22          }
+     23          
+     24          /*
+     25          *  乘方函数
+     26          */
+
+   \                                 In section .text, align 2, keep-with-next
+     27          int power(uint8 length)
+     28          {
+     29            int power=1;
+   \                     power: (+1)
+   \   00000000   0x2101             MOVS     R1,#+1
+   \   00000002   0xE001             B.N      ??power_0
+     30            while(length--)power*=10;
+   \                     ??power_1: (+1)
+   \   00000004   0x220A             MOVS     R2,#+10
+   \   00000006   0x4351             MULS     R1,R2,R1
+   \                     ??power_0: (+1)
+   \   00000008   0x0002             MOVS     R2,R0
+   \   0000000A   0x1E50             SUBS     R0,R2,#+1
+   \   0000000C   0xB2D2             UXTB     R2,R2            ;; ZeroExt  R2,R2,#+24,#+24
+   \   0000000E   0x2A00             CMP      R2,#+0
+   \   00000010   0xD1F8             BNE.N    ??power_1
+     31            return power;
+   \   00000012   0x0008             MOVS     R0,R1
+   \   00000014   0x4770             BX       LR               ;; return
+     32          }
+     33          
+     34          /*
+     35          *  打印文件返回代码
+     36          */
+
+   \                                 In section .text, align 2, keep-with-next
+     37          void die(FRESULT rc)
+     38          {
+   \                     die: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     39            printf("错误代码 rc=%u.\n", rc);
+   \   00000002   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \   00000004   0x0001             MOVS     R1,R0
+   \   00000006   0x....             LDR.N    R0,??DataTable1
+   \   00000008   0x.... 0x....      BL       printf
+     40            for (;;) ;
+   \                     ??die_0: (+1)
+   \   0000000C   0xE7FE             B.N      ??die_0
+     41          }
+     42          
+     43          /*
+     44          *  用户自定义的为FatFs系统提供实时时间的函数
+     45          */
+
+   \                                 In section .text, align 2, keep-with-next
+     46          DWORD get_fattime (void)
+     47          {
+     48            return ((DWORD)(2015 - 1980) << 25)	//2015年
+     49              | ((DWORD)1 << 21)               //1月
+     50                | ((DWORD)25 << 16)              //25日
+     51                  | ((DWORD)0 << 11)
+     52                    | ((DWORD)0 << 5)
+     53                      | ((DWORD)0 >> 1);
+   \                     get_fattime: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable1_1  ;; 0x46390000
+   \   00000002   0x4770             BX       LR               ;; return
+     54          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0x........         DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   0x46390000         DC32     0x46390000
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \   00000000   0xB4 0xED          DC8 "\264\355\316\363\264\372\302\353 rc=%u.\012"
+   \              0xCE 0xF3    
+   \              0xB4 0xFA    
+   \              0xC2 0xEB    
+   \              0x20 0x72    
+   \              0x63 0x3D    
+   \              0x25 0x75    
+   \              0x2E 0x0A    
+   \              0x00         
+   \   00000011   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+     55          
+     56          
+     57          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   abs
+       8   die
+         8   -> printf
+       0   get_fattime
+       0   power
+       0   sgn
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+      20  ?_0
+       8  abs
+      14  die
+       4  get_fattime
+      22  power
+      22  sgn
+
+ 
+ 20 bytes in section .rodata
+ 78 bytes in section .text
+ 
+ 78 bytes of CODE  memory
+ 20 bytes of CONST memory
+
+Errors: none
+Warnings: none

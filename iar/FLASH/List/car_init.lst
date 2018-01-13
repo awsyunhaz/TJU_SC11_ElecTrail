@@ -1,0 +1,315 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM        14/Jul/2016  23:31:57
+# Copyright 1999-2014 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\app\car_init.c
+#    Command line =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\app\car_init.c
+#        -D LPLD_K60 -lCN
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\List\
+#        -lB
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\List\
+#        -o
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\Obj\
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\IAR Systems\Embedded
+#        Workbench 7.0\arm\INC\c\DLib_Config_Full.h" -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\app\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\CPU\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\common\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\LPLD\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\FatFs\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\common\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\driver\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\..\..\..\lib\USB\class\
+#        -Ol -I "D:\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include\" -D
+#        ARM_MATH_CM4
+#    List file    =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\List\car_init.lst
+#    Object file  =  
+#        C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\iar\FLASH\Obj\car_init.o
+#
+###############################################################################
+
+C:\Users\zyh\Desktop\飞思卡尔\软件组作业一（2015.11.23）\拉普兰德例程及OLED测试程序\project\TJU_SC11_ElecTrail_A车\app\car_init.c
+      1          #include "car_init.h"
+      2          
+      3          #if 1/************************初始化*******************************/
+      4          
+      5          void init_all()
+      6          {
+      7            init_paranum();               //可调参数计算
+      8            init_uart();                  //初始化串口发送
+      9            init_pit();                   //中断初始化
+     10            init_ADC();
+     11            FLOAT_LDC_init();             //电轨传感器初始化
+     12            OLED_Init();                  //OLED屏幕初始化
+     13            init_speedFb();               //速度反馈FTM计数器初始化
+     14            init_motor();                 //电机输出PMW初始化
+     15            init_servo();                 //舵机输出PWM初始化
+     16            init_key(); 
+     17            init_flash();            //FLASH参数存取初始化
+     18            init_readpara();         //读取FLASH参数
+     19          //  init_sdhc();
+     20          }
+     21          void init_paranum()
+     22          {
+     23            while(paralist[oled.para_num].precision)
+     24              oled.para_num++;
+     25            oled.showpage_max=3;
+     26            oled.showpage_min=0;
+     27          }
+     28          
+     29          void init_setpara()
+     30          {
+     31            setpara.Ref.leftmin=140;
+     32            setpara.Ref.right=140;
+     33            setpara.Ref.center=145;
+     34            setpara.Ref.centerlose=125;
+     35            setpara.SpeedBANGBANG=700;       //Bang-bang 控制
+     36            setpara.SpeedPID.Kp=10;
+     37            setpara.SpeedPID.Ki=5;
+     38            setpara.SpeedPID.Kd=5;
+     39            setpara.SetSpeedMax=2000;
+     40            setpara.SetSpeedMin=800;
+     41            setpara.K_left=90;
+     42            setpara.K_right=60;
+     43            setpara.SpeedDutyMax          =       4500;
+     44            setpara.SpeedDutyMin          =       6500;
+     45            setpara.SteerPD.Kp=80;
+     46            setpara.SteerPD.Kd=60;
+     47            setpara.Steer.mid=386;
+     48            setpara.Steer.maxturn=72;
+     49            setpara.settime=15;
+     50            setpara.outtime=2;
+     51            setpara.track_amp=500;
+     52            setpara.weight_left[0]	=	 500;
+     53            setpara.weight_left[1]	=	 600;
+     54            setpara.weight_left[2]	=	 750;
+     55            setpara.weight_left[3]	=	 900;
+     56            setpara.weight_left[4]	=	1000;
+     57            setpara.weight_left[5]	=	1100;
+     58            setpara.weight_left[6]	=	1150;
+     59            setpara.weight_left[7]	=	1200;
+     60            setpara.weight_left[8]	=	1250;
+     61            setpara.weight_left[9]	=	1300;
+     62            setpara.weight_left[10]	=	1350;
+     63            setpara.weight_right[0]	=	 500;
+     64            setpara.weight_right[1]	=	 600;
+     65            setpara.weight_right[2]	=	 750;
+     66            setpara.weight_right[3]	=	 900;
+     67            setpara.weight_right[4]	=	1000;
+     68            setpara.weight_right[5]	=	1100;
+     69            setpara.weight_right[6]	=	1150;
+     70            setpara.weight_right[7]	=	1200;
+     71            setpara.weight_right[8]	=	1250;
+     72            setpara.weight_right[9]	=	1300;
+     73            setpara.weight_right[10]	=	1350;
+     74          }
+     75          
+     76          void init_flash()
+     77          {
+     78            LPLD_Flash_Init();
+     79          }
+     80          
+     81          void init_readpara()
+     82          {
+     83            //定义参数读取
+     84            for(int i=0;i<oled.para_num;i++)
+     85            {
+     86              *paralist[i].para = *(int*)(FLASH_SAVE_SECTOR*0x800+i*4);
+     87            }
+     88          }
+     89          
+     90          void init_sdhc()
+     91          {
+     92            if(!disk_initialize(0)) printf("SD卡初始化成功.\n");
+     93            else printf("SD卡初始化失败.\n");
+     94          }
+     95          
+     96          void init_uart(void)
+     97          {
+     98            UART_InitTypeDef uart0_init_struct;
+     99            uart0_init_struct.UART_Uartx = UART0;         //使用UART0
+    100            uart0_init_struct.UART_BaudRate = 9600;       //设置波特率9600
+    101            uart0_init_struct.UART_TxPin = PTB17;          //发送引脚为PTB17
+    102            //初始化UART
+    103            LPLD_UART_Init(uart0_init_struct);
+    104          
+    105          }
+    106          void init_key()
+    107          {
+    108            GPIO_InitTypeDef gpio_init_struct={0};
+    109            
+    110            gpio_init_struct.GPIO_PTx = PTC;              //PORTC
+    111            gpio_init_struct.GPIO_Pins = GPIO_Pin3|GPIO_Pin4|GPIO_Pin5|GPIO_Pin6|GPIO_Pin7|GPIO_Pin8;     //引脚3、4、5、6、7、8
+    112            gpio_init_struct.GPIO_Dir = DIR_INPUT;        //输入
+    113            gpio_init_struct.GPIO_PinControl = INPUT_PF_EN|IRQC_FA;   //输入低通滤波，下降沿中断
+    114            gpio_init_struct.GPIO_Isr = portc_isr;        //中断函数
+    115            LPLD_GPIO_Init(gpio_init_struct);
+    116            //使能中断
+    117            LPLD_GPIO_EnableIrq(gpio_init_struct);
+    118            
+    119          }
+    120          
+    121          void init_speedFb()
+    122          {
+    123            GPIO_InitTypeDef gpio_init_struct={0};
+    124            gpio_init_struct.GPIO_PTx = PTA;
+    125            gpio_init_struct.GPIO_Pins = GPIO_Pin12 | GPIO_Pin13;
+    126            gpio_init_struct.GPIO_Dir = DIR_INPUT;
+    127            gpio_init_struct.GPIO_PinControl = INPUT_PULL_UP | INPUT_PF_EN;
+    128            LPLD_GPIO_Init(gpio_init_struct);
+    129            
+    130            //配置正交解码功能参数
+    131            FTM_InitTypeDef ftm_init_struct={0};
+    132            ftm_init_struct.FTM_Ftmx = FTM1;              //只有FTM1和FTM2有正交解码功能
+    133            ftm_init_struct.FTM_Mode = FTM_MODE_QD;       //正交解码功能
+    134            ftm_init_struct.FTM_QdMode = QD_MODE_PHAB;    //AB相输入模式
+    135            //初始化FTM
+    136            LPLD_FTM_Init(ftm_init_struct);
+    137            //使能AB相输入通道
+    138            //PTA12引脚接A相输入、PTA13引脚接B相输入
+    139            LPLD_FTM_QD_Enable(FTM1, PTA12, PTA13);
+    140            
+    141          }
+    142          
+    143          
+    144          //void init_electrail()
+    145          //{
+    146            
+    147          //  init_pulse_counter(PTB0,DMA_CH1);
+    148          //  init_pulse_counter(PTC1,DMA_CH2);
+    149          //  init_pulse_counter(PTD1,DMA_CH3);
+    150          
+    151          //}
+    152          
+    153          void FLOAT_LDC_init()
+    154          {
+    155            LDC1000_init_1();
+    156            LDC1000_init_2();
+    157            LDC1000_init_3();
+    158          }
+    159          
+    160          void init_ADC()
+    161          {
+    162            ADC_InitTypeDef adc_init_struct={0};
+    163            
+    164            adc_init_struct.ADC_Adcx = ADC0;                      //配置ADC采样参数
+    165            adc_init_struct.ADC_BitMode = SE_10BIT;               //单端10位精度
+    166            adc_init_struct.ADC_SampleTimeCfg = SAMTIME_SHORT;    //短采样时间
+    167            adc_init_struct.ADC_HwAvgSel = HW_32AVG;               //4次硬件平均
+    168            adc_init_struct.ADC_CalEnable = TRUE;                 //使能初始化校验
+    169            
+    170            LPLD_ADC_Init(adc_init_struct);                       //初始化ADC
+    171            
+    172            LPLD_ADC_Chn_Enable(ADC0, AD23);                      //使能相应ADC通道_电池电压
+    173            
+    174          }
+    175          
+    176          void init_pulse_counter(PortPinsEnum_Type counter_port,         //通用的
+    177                                  uint8 dma_chx)
+    178          {
+    179            GPIO_InitTypeDef gpio_init_struct={0};
+    180            uint32 PTx_BASE = PTA_BASE+(counter_port>>5)*0x40u; //*0100 0000
+    181            gpio_init_struct.GPIO_PTx = (GPIO_Type *)PTx_BASE; //地址
+    182            gpio_init_struct.GPIO_Pins = 1<<(uint8)(counter_port&0x1Fu); //00011111 unsigned
+    183            gpio_init_struct.GPIO_Dir = DIR_INPUT;
+    184            gpio_init_struct.GPIO_PinControl = IRQC_DMARI|INPUT_PF_EN|INPUT_PULL_UP;
+    185            LPLD_GPIO_Init(gpio_init_struct);
+    186            
+    187            DMA_InitTypeDef dma_init_struct={0};
+    188            //DMA参数配置
+    189            dma_init_struct.DMA_CHx = dma_chx;    //通道号
+    190            dma_init_struct.DMA_Req = PORTA_DMAREQ+(counter_port>>5);       //DMA请求源
+    191            dma_init_struct.DMA_MajorLoopCnt = 0x7FFF; //主循环计数值
+    192            dma_init_struct.DMA_MinorByteCnt = 1; //次循环字节计数
+    193            dma_init_struct.DMA_SourceAddr = 0x4004000C;        //源地址
+    194            dma_init_struct.DMA_DestAddr = 0x4004000C;          //目的地址
+    195            
+    196            //初始化DMA
+    197            LPLD_DMA_Init(dma_init_struct);
+    198            //使能DMA请求
+    199            LPLD_DMA_EnableReq(dma_chx);
+    200            
+    201          //  GPIO(dir_port,DIR_INPUT);                     //简易初始化端口
+    202          }
+    203          
+    204          void init_motor()
+    205          {
+    206            FTM_InitTypeDef ftm_init_struct={0};
+    207            
+    208            ftm_init_struct.FTM_Ftmx = FTM0;	        //使能FTM0通道
+    209            ftm_init_struct.FTM_Mode = FTM_MODE_PWM;	//使能PWM模式
+    210            ftm_init_struct.FTM_PwmFreq = 15000;	        //PWM频率15000Hz
+    211            
+    212            LPLD_FTM_Init(ftm_init_struct);
+    213            
+    214            /*****************************************************
+    215            *------------------------------------PWM对齐方式
+    216            *---------------------------------端口号  ↓
+    217            *-------------------------初始占空比↓    ↓
+    218            *-----------------------通道号  ↓  ↓    ↓
+    219            *------------------模块号  ↓   ↓  ↓    ↓
+    220            *                   ↓     ↓   ↓  ↓    ↓       */
+    221            LPLD_FTM_PWM_Enable(FTM0,FTM_Ch4,0,PTD4,ALIGN_LEFT);
+    222            LPLD_FTM_PWM_Enable(FTM0,FTM_Ch5,0,PTD5,ALIGN_LEFT);
+    223            
+    224          }
+    225          
+    226          void init_servo()
+    227          {
+    228            FTM_InitTypeDef ftm_init_struct={0};
+    229            
+    230            ftm_init_struct.FTM_Ftmx = FTM2;	        //使能FTM2通道
+    231            ftm_init_struct.FTM_Mode = FTM_MODE_PWM;	//使能PWM模式
+    232            ftm_init_struct.FTM_PwmFreq = 50;	        //PWM频率300Hz
+    233            
+    234            LPLD_FTM_Init(ftm_init_struct);
+    235            
+    236            LPLD_FTM_PWM_Enable(FTM2,FTM_Ch0,386,PTB18,ALIGN_LEFT);
+    237          }
+    238          
+    239          
+    240          void init_pit()
+    241          {
+    242            PIT_InitTypeDef pit0_init_struct={PIT0};
+    243            //配置PIT0参数
+    244            pit0_init_struct.PIT_Pitx = PIT0;
+    245            pit0_init_struct.PIT_PeriodMs = PIT0_MS;      //定时周期
+    246            pit0_init_struct.PIT_Isr = pit0_isr;          //设置中断函数
+    247            //初始化PIT0
+    248            LPLD_PIT_Init(pit0_init_struct);  
+    249            
+    250            //使能PIT0
+    251            LPLD_PIT_EnableIrq(pit0_init_struct);
+    252          }
+    253          
+    254          #endif
+
+Errors: 3
+Warnings: none
